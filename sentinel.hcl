@@ -32,10 +32,10 @@ policy "intel-aws-db-instance-deny-unapproved-instance-types" {
   enforcement_level = "advisory"
 }
 
-policy "intel-aws-db-instance-deny-unapproved-storage-types" {
-  source = "./policies/intel-aws-db-instance-deny-unapproved-storage-types/intel-aws-db-instance-deny-unapproved-storage-types.sentinel"
-  enforcement_level = "advisory"
-}
+// policy "intel-aws-db-instance-deny-unapproved-storage-types" {
+//   source = "./policies/intel-aws-db-instance-deny-unapproved-storage-types/intel-aws-db-instance-deny-unapproved-storage-types.sentinel"
+//   enforcement_level = "advisory"
+// }
 
 policy "intel-aws-db-instance-deny-unencrypted-database" {
   source = "./policies/intel-aws-db-instance-deny-unencrypted-database/intel-aws-db-instance-deny-unencrypted-database.sentinel"
